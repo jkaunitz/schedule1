@@ -33,7 +33,7 @@
 
 @mixin solid-course {
     background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.21);
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.21);
 }
 
 .library-course-selected {
@@ -47,7 +47,7 @@
 
     &:hover {
         @include solid-course();
-        .library-course-action {
+        .library-course__action {
             opacity: 1;
         }
     }
